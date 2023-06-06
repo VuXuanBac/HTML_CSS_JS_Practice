@@ -1,0 +1,72 @@
+/* .content-row span {
+    position: relative;
+} */
+
+.row-data {
+    position: relative;
+}
+
+.editable-field {
+    position: absolute;
+    right: 0px;
+    padding: 3px;
+    width: 220px;
+    margin-top: 3px;
+}
+
+#edit-gender {
+    right: 10px;
+    top: -5px;
+    display: inline;
+    padding-left: 5px;
+}
+
+#edit-gender li {
+    display: inline;
+    margin: 0px 7px;
+}
+
+/* 
+.content-row strong {
+    width: 200px;
+} */
+
+/* ***************** FORM BUTTONS ***************** */
+.splitter {
+    flex: 1;
+}
+
+.form-button {
+    margin-right: 20%;
+    display: inline-flex;
+    flex: 1;
+    width: 66%;
+}
+
+.form-button a {
+    margin-left: 40px;
+}
+
+.form-button a:hover {
+    text-decoration: none;
+}
+
+.form-button img {
+    width: 24px;
+    /* margin-left: 20px; */
+}
+
+/* ***************** FORM EDITABLE FIELDS ***************** */
+
+
+.form-row {
+    display: inline;
+}
+
+div.form-value {
+    display: inline;
+}
+
+.raw-data {
+    padding-left: 5px;
+}

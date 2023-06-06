@@ -1,0 +1,159 @@
+/* *********** MAIN PANEL *********** MAIN CONTENT *************** */
+
+#main-panel main {
+    flex: 1;
+    padding: 10px;
+}
+
+.img-button {
+    display: inline;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.img-button img {
+    width: 28px;
+}
+
+/* *********** MAIN PANEL *********** MAIN CONTENT - TITLE *************** */
+
+#main-title {
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+#main-title h3 {
+    margin: 5px 0 10px 0;
+    line-height: 1.1;
+    display: inline;
+}
+
+#main-title hr {
+    border: 0;
+    border-top: 3px solid #eee;
+    height: 0;
+    box-sizing: content-box;
+}
+
+/* *********** MAIN PANEL *********** MAIN CONTENT - DATA *************** */
+
+#main-content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+/* **************** DATA GROUP **************** */
+
+.group-card {
+    background-color: rgba(240, 240, 240, 0.185);
+    box-shadow: 2px 2px 9px 3px #7776;
+    width: 75%;
+    /* height: 300px; */
+    /* min-height: 45px; */
+    margin-bottom: 30px;
+}
+
+.togglable span {
+    display: inline;
+    /* visibility: visible; */
+}
+
+.togglable input {
+    display: none;
+    /* visibility: collapse; */
+}
+
+.editable span {
+    display: none;
+    /* visibility: collapse; */
+}
+
+.editable input {
+    display: inline;
+    /* visibility: visible; */
+}
+
+
+/* **************** DATA GROUP TITLE **************** */
+
+.group-title {
+    display: flex;
+    box-shadow: 2px 2px 9px 3px #7776;
+    height: 45px;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.group-title .title-text {
+    color: #0a22f7;
+}
+
+.group-title .title-text span::after {
+    content: "_20194230";
+}
+
+.group-title .img-button {
+    margin-left: 8%;
+}
+
+.splitter {
+    flex: 1;
+}
+
+.group-card:first-child .group-title .delete-button {
+    display: none;
+}
+
+/* **************** DATA GROUP DATA **************** */
+
+.group-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* **************** FIELD ITEM **************** */
+
+.item-title span::after {
+    content: " :";
+    font-style: normal;
+}
+
+.group-item {
+    font-family: 'Times New Roman', Times, serif !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.item-title {
+    font-style: italic;
+    font-weight: normal;
+    text-align: right;
+    /* display: inline; */
+    float: left;
+    margin-left: 15%;
+    width: 20%;
+}
+
+.item-data {
+    /* display: inline; */
+    margin-left: 15%;
+    float: left;
+}
+
+.group-item .delete-button {
+    float: right;
+    margin-right: 10%;
+}
+
+/* *********** MAIN PANEL *********** CUSTOM *************** */
+
+/* Style của các mục tiêu đề */
+main .title-text {
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 16px;
+    color: red;
+}

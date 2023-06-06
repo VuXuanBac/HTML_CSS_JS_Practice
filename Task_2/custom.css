@@ -1,0 +1,32 @@
+/* Style của các mục tiêu đề */
+main .title-text {
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 14px;
+    color: red;
+}
+
+/* Nội dung các trường thông tin + các mục */
+.row-detail {
+    font-family: 'Times New Roman', Times, serif !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+}
+
+/* Tên các mục */
+.row-detail strong {
+    font-style: italic;
+    font-weight: normal;
+}
+
+/* Button để chỉnh sửa bên cạnh */
+/* section .edit-button {
+    background-origin: content-box;
+    margin-left: 10px;
+    visibility: visible !important;
+} */
+
+/* Bóng đổ cho ảnh */
+.avatar {
+    box-shadow: 9px 9px 11px 5px #7776;
+    margin-bottom: 5px;
+}
